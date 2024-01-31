@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  /* header */
+  .navbar-fixed {
+    @apply fixed shadow-md bg-dark1 backdrop-blur-sm ease-in transition-all duration-500;
+  }
+
+  .navmenu{
+    @apply scroll-smooth text-base py-2 mx-8 flex ease-in transition-all duration-500
+  }
+
+  .hamburger-line {
+    @apply w-[30px] h-[2px] my-2 block bg-white transition duration-300 ease-in-out;
+  }
+
+  .hamburger-active > span:nth-child(1) {
+    @apply rotate-45;
+  }
+  .hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+  }
+  .hamburger-active > span:nth-child(3) {
+    @apply -rotate-45;
+  }
+
+
+  .buttonSwipe{
+    @apply items-center w-8 h-8 rounded-md shadow-md
+  }
+  .buttonSwipe:hover{
+    @apply bg-dark text-white transition-all duration-300
+  }
+
+  /* value */
+  .wrapValue{
+    @apply border border-gray-300 rounded-md p-4 w-full
+  }
+
+  .wrapValue:hover,
+  .wrapValue.active{
+    @apply shadow-lg shadow-sky-200 transition-all duration-500
+  }
+
+  /* contact */
+  .wrapContact{
+    @apply border border-gray-300 rounded-md p-4 w-full lg:w-1/2 hover:scale-110 hover:shadow-lg hover:shadow-sky-200 transition-all duration-500
+  }
+
+  .imgContact{
+    @apply bg-sky-200 text-sky-700 p-3 rounded-md
+  }
+
+  .detailContact{
+    @apply flex flex-col pl-6 self-center
+  }
+  .buttonContact{
+    @apply bg-sky-200 text-sky-700 font-semibold py-2 mt-4 text-center rounded-md cursor-pointer hover:scale-95 hover:bg-sky-700 hover:text-white transition-all duration-500
+  }
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer utilities{
+
 }

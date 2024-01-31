@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Decal CBR 150",
+      "price": "500.000",
+      "detail": "Bahan Premium Maxdecal",
+      "imgproduct": "./img/motor1.png"
+    },
+    {
+      "name": "Decal VARIO",
+      "price": "450.000",
+      "detail": "Bahan Premium Maxdecal",
+      "imgproduct": "./img/motor2.png"
+    },
+    {
+      "name": "Decal KLX/CRF",
+      "price": "450.000",
+      "detail": "Bahan Premium Maxdecal",
+      "imgproduct": "./img/motor4.png"
+    },
+    {
+      "name": "Decal NMAX",
+      "price": "600.000",
+      "detail": "Bahan Premium Maxdecal",
+      "imgproduct": "./img/motor6.png"
+    },
+    {
+      "name": "Fullblok FAZIO",
+      "price": "300.000",
+      "detail": "Bahan Standar Profix/Goodfix",
+      "imgproduct": "./img/motor5.png"
+    },
+    {
+      "name": "Fullblok NMAX",
+      "price": "350.000",
+      "detail": "Bahan Standar Profix/Goodfix",
+      "imgproduct": "./img/motor3.png"
+    }
+  ]
+  
